@@ -148,5 +148,9 @@ void loop() {
 }
 ```
 
-### Bilder
+## Bilder
+
+![Tremendous Bigery](/Users/moritz/Downloads/Tremendous Bigery.png)
+
+__Darstellung der Schaltung in Tinkercad__
 
