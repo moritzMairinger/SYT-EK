@@ -149,15 +149,20 @@ void loop() {
 ```
 
 ## Bilder
-[![Tremendous-Bigery.png](https://i.postimg.cc/J4Hcx0MT/Tremendous-Bigery.png)
+![Tremendous-Bigery.png](https://i.postimg.cc/J4Hcx0MT/Tremendous-Bigery.png)
 
 
 __Darstellung der Schaltung in Tinkercad__
 
 *Bilder der echten Schaltung* 
 
+# 5. Zusammenfassung
 
 
 
+
+
+
+# 6. Quellen 
 
 
