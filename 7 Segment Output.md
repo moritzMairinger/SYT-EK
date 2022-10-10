@@ -154,7 +154,11 @@ void loop() {
 
 __Darstellung der Schaltung in Tinkercad__
 
-*Bilder der echten Schaltung* 
+*Bilder der echten Schaltung*: 
+
+<img src="https://i.postimg.cc/Qdk6bwXP/IMG-0930.jpg" alt="IMG-0930.jpg" style="zoom:50%;" />
+
+​											
 
 # 5. Zusammenfassung
 
@@ -162,7 +166,7 @@ In diesem Projekt hab ich eine simple Anzeige mithilfe von deinem Potentiometer 
 
 Aktuell fünktioniert das Blinken der LED mit denem delay(). Das könnte zu Problemen führen wenn es nicht als seperates Program ausgeführt wird. Ich habe bemerkt, dass es in diesem Anwendungsfall keinen Unterschied macht. 
 
-Großteil des codes ist von [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)
+Großteil des codes ist von [CREATE.ARDUINO.CC](ttps://create.arduino.cc/projecthub/aboda243/get-started-with-seven-segment-c73200)
 
 
 # 6. Quellen 
@@ -171,5 +175,6 @@ Großteil des codes ist von [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp
 
 [2] Get started with seven segment - Arduino Project Hub [online] Available at: <https://create.arduino.cc/projecthub/aboda243/get-started-with-seven-segment-c73200> [Accessed 30 September 2022]
 
+[3] Adam-P, “Markdown cheatsheet · Adam-P/markdown-here wiki,” *GitHub*. [online]. Available at: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet. [Accessed 8 October 2022].
 
-
+[4] Postimages — free image hosting / image upload [online]. Available at: https://postimages.org/. [Accessed 10 October 2022].
