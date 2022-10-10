@@ -156,7 +156,13 @@ __Darstellung der Schaltung in Tinkercad__
 
 *Bilder der echten Schaltung*: 
 
+## 1.
+
 <img src="https://i.postimg.cc/Qdk6bwXP/IMG-0930.jpg" alt="IMG-0930.jpg" style="zoom:50%;" />
+
+## 2. 
+
+[<img src="https://i.postimg.cc/mrWK87fX/IMG-0933-2.jpg" alt="IMG-0933-2.jpg" style="zoom:67%;" />](https://postimg.cc/rDghp0px) 
 
 ​											
 
@@ -166,7 +172,7 @@ In diesem Projekt hab ich eine simple Anzeige mithilfe von deinem Potentiometer 
 
 Aktuell fünktioniert das Blinken der LED mit denem delay(). Das könnte zu Problemen führen wenn es nicht als seperates Program ausgeführt wird. Ich habe bemerkt, dass es in diesem Anwendungsfall keinen Unterschied macht. 
 
-Großteil des codes ist von [CREATE.ARDUINO.CC](ttps://create.arduino.cc/projecthub/aboda243/get-started-with-seven-segment-c73200)
+Großteil des codes ist von [CREATE.ARDUINO.CC](ttps://create.arduino.cc/projecthub/aboda243/get-started-with-seven-segment-c73200). Am Aanfang des codes werden chars und andere variablen deklariert in der whiler schleife wird das Display geupdated. 
 
 
 # 6. Quellen 
