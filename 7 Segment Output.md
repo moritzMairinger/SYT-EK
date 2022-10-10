@@ -12,7 +12,7 @@ Für Ein und Ausgeben kann man bei Microcontrollern verschiedene Bauteile verwen
 
 ## 2. Projektbeschreibung
 
-Bei diesem Projekt handelt es um eine Eingabe und zwei Ausgabemöglichkeiten die verbunden sind. Die Eingabe wird mit einem Potentiometer realisiert und die ausgabe ist eine LED und ein 7 Segment Display. Wenn der Potentiometer gedreht wird kann auf dem Display eine Zahl von 0 bis 9 ausgegeben werden. Die LED leuchtet immer dann auf wenn sich eine Zahl ändert.
+Bei diesem Projekt handelt es um eine Eingabe und zwei Ausgabemöglichkeiten die verbunden sind. Die Eingabe wird mit einem Potentiometer realisiert und die ausgabe ist eine LED und ein 7 Segment Display. Wenn der Potentiometer gedreht wird kann auf dem Display eine Zahl von 0 bis 9 ausgegeben werden. Die LED leuchtet immer dann auf wenn sich eine Zahl ändert. 
 
 ## 3. Arbeitsschritt
 
@@ -136,20 +136,20 @@ void Print(int num){ // print any number on the segment
 }
 
 void loop() {
-  wert = analogRead(A5)/110;
+  wert = analogRead(A5) / 110;		//the analog read signal is converted int a number between 0-9
 
-  if(lastWert != wert){
-    lastWert = wert;
-    digitalWrite(led, HIGH);
-    delay(5);
-    digitalWrite(led, LOW);
+  if(lastWert != wert){					//checks if the number has changed 	
+    lastWert = wert;						//updates the last number
+    digitalWrite(led, HIGH);		//sets LED HIGH
+    delay(5);										//waits 5ms
+    digitalWrite(led, LOW);			//sets LED LOW
   }
   Print(wert);
 }
 ```
 
 ## Bilder
-![Tremendous-Bigery.png](https://i.postimg.cc/J4Hcx0MT/Tremendous-Bigery.png)
+<img src="https://i.postimg.cc/J4Hcx0MT/Tremendous-Bigery.png" alt="Tremendous-Bigery.png"  />
 
 
 __Darstellung der Schaltung in Tinkercad__
@@ -158,11 +158,18 @@ __Darstellung der Schaltung in Tinkercad__
 
 # 5. Zusammenfassung
 
+In diesem Projekt hab ich eine simple Anzeige mithilfe von deinem Potentiometer angesteuert. Den Wechsel der Zahl habe ich mit einer LED visualisiert die für 5ms leuchtet.
 
+Aktuell fünktioniert das Blinken der LED mit denem delay(). Das könnte zu Problemen führen wenn es nicht als seperates Program ausgeführt wird. Ich habe bemerkt, dass es in diesem Anwendungsfall keinen Unterschied macht. 
 
-
+Großteil des codes ist von [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)
 
 
 # 6. Quellen 
+
+[1]Analog Read Serial | Arduino Documentation | Arduino Documentation [online] Available at: <https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial> [Accessed 30 September 2022].
+
+[2] Get started with seven segment - Arduino Project Hub [online] Available at: <https://create.arduino.cc/projecthub/aboda243/get-started-with-seven-segment-c73200> [Accessed 30 September 2022]
+
 
 
