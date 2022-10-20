@@ -151,6 +151,8 @@ void loop() {
 ## Bilder
 <img src="https://i.postimg.cc/J4Hcx0MT/Tremendous-Bigery.png" alt="Tremendous-Bigery.png"  />
 
+[Tinkercad File](https://www.tinkercad.com/things/dc1eNc5UbGI)
+
 
 __Darstellung der Schaltung in Tinkercad__
 
